@@ -1,13 +1,6 @@
----
-name: issue-template
-about: issue시 사용 템플릿
-title: "[ISSUE]"
-labels: ''
-assignees: gnuoy-ji, nineeko
-
----
-
+## 어떤 이슈인가요?
 기능 요청 이슈
+
 ## 어떤 기능인가요?
 
 > 추가하려는 기능에 대해 간결하게 설명해주세요
