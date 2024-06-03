@@ -1,0 +1,67 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.playlist {
+  display: flex;
+  justify-content: center; /* 폼을 가운데 정렬 */
+  align-items: center;
+  flex-direction: column;
+  height: 100vh; /* Viewport height */
+}
+
+.form {
+  display: flex;
+  align-items: center; /* 폼 요소들을 수평으로 정렬 */
+  padding: 20px;
+  border: 1px solid #ccc; /* 폼에 테두리 추가 */
+  border-radius: 10px; /* 폼의 모서리를 둥글게 */
+  background-color: #f9f9f9; /* 폼의 배경색 */
+}
+
+.label-text {
+  margin-right: 10px; /* 레이블과 입력 필드 간의 간격 */
+}
+
+.input-field {
+  width: 150px; /* 입력 필드의 너비 설정 */
+  padding: 10px; /* 내부 패딩 */
+  margin-right: 10px; /* 입력 필드 사이의 간격 설정 */
+  box-sizing: border-box; /* 패딩을 포함한 전체 폭 계산 */
+}
+
+button {
+  padding: 10px 20px; /* 버튼의 패딩 설정 */
+  background-color: gray; /* 버튼의 배경색 설정 */
+  color: white; /* 버튼의 텍스트 색상 설정 */
+  border: none; /* 버튼의 테두리 제거 */
+  border-radius: 5px; /* 버튼의 모서리를 둥글게 설정 */
+  cursor: pointer; /* 마우스 커서가 버튼 위에 있을 때 포인터로 변경 */
+}
+
+button:hover {
+  background-color: rgb(68, 67, 67); /* 버튼 호버 시 배경색 변경 */
+}
+
+.list {
+  width: 100%; /* 결과 목록의 너비를 100%로 설정 */
+  margin-top: 20px; /* 입력된 데이터 출력 결과의 윗 공간 조정 */
+}
+
+.list li {
+  list-style: none; /* 리스트 마커 제거 */
+  border-bottom: 1px solid #ccc; /* 각 결과 아래에 1px 높이의 회색 구분선 추가 */
+  padding: 10px 0; /* 각 결과 위아래에 추가된 구분선과 텍스트 사이의 간격 조절 */
+}
+
+.list li:last-child {
+  border-bottom: none; /* 마지막 결과의 아래쪽 구분선 제거 */
+}
+
+.item {
+  display: inline-block;
+  width: 24%; /* 각 항목의 너비 조정 */
+  margin-right: 1%; /* 각 항목 사이의 간격 조정 */
+}

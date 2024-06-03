@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: left;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.col {
+    margin: 10px;
+}
+
+.item a {
+    text-decoration: none;
+    color: inherit; /* 링크 색상을 부모 엘리먼트로부터 상속받음 */
+}
+
+.item2 a {
+    text-decoration: none;
+    color: inherit; /* 링크 색상을 부모 엘리먼트로부터 상속받음 */
+    
+}
+
+.item img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.item2 img{
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.TextBox {
+    text-align: left;
+    font-size: 15px;
+    line-height: 0.5;
+}
+
+.sc1 hr {
+    width: 850px;
+    border : 0px;
+    border-top: 5px solid #563333;
+}

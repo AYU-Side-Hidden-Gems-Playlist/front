@@ -1,0 +1,12 @@
+.logo1-img {
+    float: left; 
+    margin-top: 30px;
+}
+.footer-line {
+    border-top: 1px solid #ccc; /* 선 스타일 및 색상 지정 */
+    margin-top: 40px; /* 선과 내용 사이의 간격 조절 */
+}
+.insta-img {
+    float: right; 
+    margin-top: 40px;
+}
